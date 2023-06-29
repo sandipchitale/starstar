@@ -151,7 +151,10 @@ public class StarstarApplication {
 						.fullyAuthenticated()
 					.anyRequest().permitAll();
 			})
-			.formLogin(withDefaults());
+			.formLogin(withDefaults())
+				.logout(logoutConfigurer -> {
+					logoutConfigurer.logoutSuccessUrl("/");
+				});
 		return httpSecurity.build();
 	}
 
