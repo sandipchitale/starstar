@@ -1,0 +1,8 @@
+spring:
+  security:
+    user:
+      name: "sandip"
+      password: "sandip"
+  mvc:
+    pathmatch:
+      matching-strategy: "ANT_PATH_MATCHER"
