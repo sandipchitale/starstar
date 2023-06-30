@@ -37,9 +37,9 @@ public class StarstarApplication {
     <a href="/sub/public/b">Public B</a></br>
     <a href="/sub/private/a">Private A</a></br>
     <a href="/sub/private/b">Private B</a></br>
-    <a href="/logout">Logout</a></br>    
+    <a href="/logout">Logout</a></br>
 </body>
-</html>		
+</html>
 """;
 		}
 	}
@@ -63,9 +63,9 @@ public class StarstarApplication {
     <a href="/sub/public/b">Public B</a></br>
     <a href="/sub/private/a">Private A</a></br>
     <a href="/sub/private/b">Private B</a></br>
-    <a href="/logout">Logout</a></br>    
+    <a href="/logout">Logout</a></br>
 </body>
-</html>		
+</html>
 """;
 		}
 
@@ -87,7 +87,7 @@ public class StarstarApplication {
     <a href="/sub/private/b">Private B</a></br>
 	<a href="/logout">Logout</a></br>
 </body>
-</html>		
+</html>
 """;
 		}
 	}
@@ -113,7 +113,7 @@ public class StarstarApplication {
     <a href="/sub/private/b">Private B</a></br>
     <a href="/logout">Logout</a></br>
 </body>
-</html>		
+</html>
 """;
 		}
 
@@ -133,9 +133,9 @@ public class StarstarApplication {
     <a href="/sub/public/a">Public A</a></br>
     <a href="/sub/public/b">Public B</a></br>
     <a href="/sub/private/a">Private A</a></br>
-    <a href="/logout">Logout</a></br>    
+    <a href="/logout">Logout</a></br>
 </body>
-</html>		
+</html>
 """;
 		}
 	}
