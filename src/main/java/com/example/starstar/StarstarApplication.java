@@ -143,7 +143,7 @@ public class StarstarApplication {
 	@Bean
 	public SecurityFilterChain loginSecurityFilterChain(HttpSecurity httpSecurity) throws Exception {
 		httpSecurity
-			// Single FilterChainProxy
+			// Single FilterChainProxy i.e. No securityMatcher
 			.authorizeHttpRequests(authorizeHttpRequestsConfig -> {
 				authorizeHttpRequestsConfig
 					// Only the **/private/* require authentication.
@@ -153,6 +153,7 @@ public class StarstarApplication {
 			})
 			.formLogin(withDefaults())
 				.logout(logoutConfigurer -> {
+					// Because the / path is not secured
 					logoutConfigurer.logoutSuccessUrl("/");
 				});
 		return httpSecurity.build();

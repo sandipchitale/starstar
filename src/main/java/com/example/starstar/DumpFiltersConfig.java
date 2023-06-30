@@ -40,6 +40,12 @@ public class DumpFiltersConfig {
                 System.out.println();
                 System.out.println("Begin Filters ============================");
                 System.out.println("URL: " + request.getMethod() + " " + request.getRequestURI());
+//                System.out.println("Headers:");
+//                request.getHeaderNames().asIterator().forEachRemaining((String headerName) -> {
+//                    System.out.println("\t" + headerName + ": " + request.getHeader(headerName));
+//                });
+//                System.out.println("Params:");
+//                System.out.println(String.valueOf(request.getParameterMap()));
                 ApplicationFilterChain applicationFilterChain = (ApplicationFilterChain) filterChain;
                 try {
                     Field filters = applicationFilterChain.getClass().getDeclaredField("filters");
